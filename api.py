@@ -15,8 +15,8 @@ class Item(BaseModel):
 
     username: str = ''
     search: str = ''
-    since: str = "1995-10-16"
-    until: str = "1996-08-25"
+    since: str = "1996-08-25"
+    until: str = "1996-09-14"
     minlikes: int = 0
     minretweets: int = 0
     minreplies: int = 0
@@ -27,7 +27,7 @@ def root():
     return {
         "info": {
             "title": "TwitterAPI",
-            "version": "2022.10.29"
+            "version": "2022.12.29"
         },
     }
 
