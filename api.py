@@ -41,7 +41,7 @@ def root():
     }
 
 
-@app.post("/tweets/")
+@app.post("/tweets-username/")
 async def get_tweets_by_username(item: UserItem):
     os.system("echo $PATH")
     return get_tweets_by_username_(
@@ -54,7 +54,7 @@ async def get_tweets_by_username(item: UserItem):
     )
 
 
-@app.post("/tweets/")
+@app.post("/tweets-keyword/")
 async def get_tweets_by_keyword(item: KeywordItem):
     os.system("echo $PATH")
     return get_tweets_by_keyword_(
