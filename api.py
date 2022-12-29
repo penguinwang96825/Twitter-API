@@ -35,9 +35,9 @@ class KeywordItem(BaseModel):
 def root():
     return {
         "info": {
-            "title": "TwitterAPI",
+            "title": "TwitterAPI", 
             "version": "2022.12.29"
-        },
+        }
     }
 
 
